@@ -1,0 +1,6519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1368</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1371</width>
+      <height>801</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Латинский квадрат</string>
+     </attribute>
+     <widget class="QGroupBox" name="tableOfRatiosBetweenApostKeyProbAndAprMesProbGroupBox_Square">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>430</y>
+        <width>431</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Таблица отношений апост. вер. ключей к апр. вер. сообщений</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfRatiosBetweenApostKeyProbAndAprMesProb_Square">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>434</width>
+         <height>291</height>
+        </rect>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::DoubleClicked|QAbstractItemView::EditKeyPressed</set>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>k1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k7</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k8</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k9</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>e1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e5</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e6</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e7</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e8</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e9</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateTableOfRatiosBetweenApostKeyProbAndAprMesProbButton_Square">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>320</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Рассчитать</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfAprioriKeyProbabilityGroupBox_Square">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>250</y>
+        <width>451</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Таблица априорных вероятностей ключей</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfAprioriKeyProbability_Square">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>447</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>p(ki)</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>k1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k5</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k6</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k7</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k8</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k9</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateAprioriKeyProbabilities_Square">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>140</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Сгенерировать</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="generateRandomKeyProbabilities_Square">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Случайные</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="generateEqualKeyProbabilities_Square">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Равновероятные</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfProbabilityDifferenceGroupBox">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>430</y>
+        <width>431</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Таблица разницы апост. и апр. вероятностей сообщений</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfDifferenceBetweenAprAndApostMessageProbabilities_Square">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>434</width>
+         <height>291</height>
+        </rect>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::DoubleClicked|QAbstractItemView::EditKeyPressed</set>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>e1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e7</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e8</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e9</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>m1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m5</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m6</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m7</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m8</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m9</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateTableOfDifferenceBetweenAprAndApostMessageProbabilitiesButton_Square">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>320</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Рассчитать</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfAposterioriMessageProbabilitiyGroupBox_Square">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>430</y>
+        <width>431</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Таблица апостериорных вероятностей сообщений</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfAposterioriMessageProbability_Square">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>434</width>
+         <height>291</height>
+        </rect>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>false</bool>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>e1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e7</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e8</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e9</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>m1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m5</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m6</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m7</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m8</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m9</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateTableOfAposterioriMessageProbabilityButton_Square">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>320</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Рассчитать</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfAprioriMessageProbabilityGroupBox_Square">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>30</y>
+        <width>451</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Таблица априорных вероятностей сообщений</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfAprioriMessageProbability_Square">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>450</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>p(mi)</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>m1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m5</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m6</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m7</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m8</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m9</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateAprioriMessageProbabilities_Square">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>140</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Сгенерировать</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="generateRandomProbabilities_Square">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Случайные</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="generateEqualProbabilities_Square">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Равновероятные</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfFunctionGroupBox_Square">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>0</y>
+        <width>431</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Таблица функции шифрования</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfFunction_Square">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>441</width>
+         <height>291</height>
+        </rect>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>k1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k7</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k8</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k9</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>m1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m5</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m6</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m7</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m8</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m9</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateTableOfFunctionButton_Square">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>390</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Сгенерировать</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>330</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>f(m</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="numberOfColumnToBeConstant1_Square">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>330</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+       <property name="value">
+        <number>2</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>330</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>, k</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="numberOfRowToBeConstant1_Square">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>330</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>330</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>) =</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="valueToBeConstant1_Square">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>330</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>360</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>) =</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>360</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>f(m</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="numberOfColumnToBeConstant2_Square">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>360</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+       <property name="value">
+        <number>3</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="numberOfRowToBeConstant2_Square">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>360</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+       <property name="value">
+        <number>2</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="valueToBeConstant2_Square">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>360</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+       <property name="value">
+        <number>3</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>360</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>, k</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Латинский прямоугольник</string>
+     </attribute>
+     <widget class="QGroupBox" name="tableOfAprioriMessageProbabilityGroupBox_Rect">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>470</y>
+        <width>271</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Таблица априорных вероятностей сообщений</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfAprioriMessageProbability_Rect">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>271</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>p(mi)</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>m1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m5</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateAprioriMessageProbabilities_Rect">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Сгенерировать</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="generateRandomProbabilities_Rect">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Случайные</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="generateEqualProbabilities_Rect">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Равновероятные</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfProbabilityDifferenceGroupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>400</y>
+        <width>251</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Табл. разницы апост. и апр. вер. сообщений</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfDifferenceBetweenAprAndApostMessageProbabilities_Rect">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>251</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::DoubleClicked|QAbstractItemView::EditKeyPressed</set>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>e1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e5</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>m1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m5</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateTableOfDifferenceBetweenAprAndApostMessageProbabilitiesButton_Rect">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>200</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Рассчитать</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfRatiosBetweenApostKeyProbAndAprMesProbGroupBox_Rect">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>170</y>
+        <width>261</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Табл. отн. апост. вер. ключ. к апр. вер. сообщ.</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfRatiosBetweenApostKeyProbAndAprMesProb_Rect">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>261</width>
+         <height>321</height>
+        </rect>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::DoubleClicked|QAbstractItemView::EditKeyPressed</set>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>k1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k7</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k8</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k9</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k10</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>e1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e5</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateTableOfRatiosBetweenApostKeyProbAndAprMesProbButton_Rect">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>350</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Рассчитать</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfFunctionGroupBox_Rect">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>261</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Таблица функции шифрования</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfFunction_Rect">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>261</width>
+         <height>321</height>
+        </rect>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>k1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k7</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k8</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k9</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k10</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>m1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m5</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateTableOfFunctionButton_Rect">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>410</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Сгенерировать</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>350</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>f(m</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="numberOfColumnToBeConstant1_Rect">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>350</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+       <property name="value">
+        <number>2</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>350</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>, k</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="numberOfRowToBeConstant1_Rect">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>350</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>350</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>) =</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="valueToBeConstant1_Rect">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>350</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>380</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>) =</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_18">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>380</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>f(m</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="numberOfColumnToBeConstant2_Rect">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>380</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+       <property name="value">
+        <number>3</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="numberOfRowToBeConstant2_Rect">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>380</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+       <property name="value">
+        <number>2</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="valueToBeConstant2_Rect">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>380</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+       <property name="value">
+        <number>3</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>380</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>, k</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfAprioriKeyProbabilityGroupBox_Rect">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>0</y>
+        <width>501</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Таблица априорных вероятностей ключей</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfAprioriKeyProbability_Rect">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>501</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>p(ki)</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>k1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k5</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k6</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k7</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k8</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k9</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k10</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="9">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateAprioriKeyProbabilities_Rect">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Сгенерировать</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="generateRandomKeyProbabilities_Rect">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Случайные</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="generateEqualKeyProbabilities_Rect">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Равновероятные</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfAposterioriMessageProbabilitiyGroupBox_Rect">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>170</y>
+        <width>251</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Таблица апост. вероятностей сообщений</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfAposterioriMessageProbability_Rect">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>251</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>false</bool>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>e1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e5</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>m1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m5</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateTableOfAposterioriMessageProbabilityButton_Rect">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>200</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Рассчитать</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>|M| &lt; |E|</string>
+     </attribute>
+     <widget class="QGroupBox" name="tableOfAprioriKeyProbabilityGroupBox_Rect_2">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>0</y>
+        <width>591</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Таблица априорных вероятностей ключей</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfAprioriKeyProbability_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>591</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>p(ki)</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>k1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k5</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k6</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k7</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k8</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k9</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k10</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k11</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>k12</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="5">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="6">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="7">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="9">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="10">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="11">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateAprioriKeyProbabilities_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Сгенерировать</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="generateRandomKeyProbabilities_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Случайные</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="generateEqualKeyProbabilities_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Равновероятные</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfFunctionGroupBox_Rect_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>221</width>
+        <height>511</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Таблица функции шифрования</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfFunction_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>211</width>
+         <height>381</height>
+        </rect>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>k1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k7</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k8</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k9</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k10</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k11</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k12</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>m1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m4</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="10" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="10" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="10" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="10" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="11" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="11" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="11" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="11" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateTableOfFunctionButton_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>480</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Сгенерировать</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>420</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>f(m</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="numberOfColumnToBeConstant1_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>420</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+       <property name="value">
+        <number>2</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>420</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>, k</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="numberOfRowToBeConstant1_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>420</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_22">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>420</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>) =</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="valueToBeConstant1_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>420</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_23">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>450</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>) =</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_24">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>450</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>f(m</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="numberOfColumnToBeConstant2_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>450</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+       <property name="value">
+        <number>3</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="numberOfRowToBeConstant2_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>450</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+       <property name="value">
+        <number>2</number>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="valueToBeConstant2_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>450</y>
+         <width>44</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+       <property name="maximum">
+        <number>9</number>
+       </property>
+       <property name="value">
+        <number>3</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_25">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>450</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>, k</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfRatiosBetweenApostKeyProbAndAprMesProbGroupBox_Rect_2">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>180</y>
+        <width>261</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Табл. отн. апост. вер. ключ. к апр. вер. сообщ.</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfRatiosBetweenApostKeyProbAndAprMesProb_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>261</width>
+         <height>381</height>
+        </rect>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::DoubleClicked|QAbstractItemView::EditKeyPressed</set>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>k1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k7</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k8</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k9</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k10</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k11</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>k12</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>e1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>e5</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="5" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="6" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="7" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="8" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="9" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="10" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="10" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="10" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="10" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="10" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="11" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="11" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="11" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="11" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="11" column="4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateTableOfRatiosBetweenApostKeyProbAndAprMesProbButton_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>410</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Рассчитать</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfAposterioriMessageProbabilitiyGroupBox_Rect_2">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>170</y>
+        <width>211</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Таблица апост. вероятностей сообщений</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfAposterioriMessageProbability_Rect_2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>211</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>false</bool>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>e1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e5</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>m1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m4</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateTableOfAposterioriMessageProbabilityButton_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>200</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Рассчитать</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfProbabilityDifferenceGroupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>400</y>
+        <width>211</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Табл. разницы апост. и апр. вер. сообщений</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfDifferenceBetweenAprAndApostMessageProbabilities_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>211</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::DoubleClicked|QAbstractItemView::EditKeyPressed</set>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>e1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>e5</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>m1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m4</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="3" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="4" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateTableOfDifferenceBetweenAprAndApostMessageProbabilitiesButton_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>200</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Рассчитать</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="tableOfAprioriMessageProbabilityGroupBox_Rect_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>510</y>
+        <width>221</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Таблица апр. вероятн. сообщений</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QTableWidget" name="tableOfAprioriMessageProbability_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>p(mi)</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>m1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>m4</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="generateAprioriMessageProbabilities_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Сгенерировать</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="generateRandomProbabilities_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Случайные</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="generateEqualProbabilities_Rect_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Равновероятные</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
